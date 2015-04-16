@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Mon premier formulaire HTML</title>
+ </head>
+ <body>
+ <!-- exercice 1 -->
+ <h1>Mon premier formulaire HTML </h1>
+ <form method="post" action="traiteform.php">
+<ﬁeldset>
+<select name="genre">
+            <option value="Mr">Mr</option>
+            <option value="Mme">Mme</option>
+            <option value="Mlle">Mlle</option>
+     </select > 
+<br /> <br />
+      Nom : <input name="nom" size="25px"/> <br /> <br />
+      Prénom : <input name="prenom" /><br /><br />
+      Adresse électronique : <input name="mail" /><br /><br />
+Je reviendrai sur ce site : 
+      <input type="radio" name="avis" value="oui" checked= "checked"/> oui
+      <input type="radio" name="avis" value="non" /> non <br /><br />
+      <input type="submit" value="Valider" name = "valider" />
+      </ﬁeldset>   
+  </form>
+ <!-- exercice 2 -->
+ <h1> Mon convertisseur </h1>
+ <form method="post" action="traiteform2.php">
+ <fieldset>
+<select name="choix">
+            <option value="FtoE">Francs vers Euros</option>
+            <option value="EtoF">Euros vers Francs</option>
+     </select > 
+<br /> <br />
+      Valeur de départ : <input name="nom" size="25px"/> <br /> <br />
+      <input type="submit" value="Valider2" name = "valider2" />   
+      </fieldset> 
+  </form>
+ </body>
+</html>

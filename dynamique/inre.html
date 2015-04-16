@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Inserver la reservation</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="../css/grid.css" type="text/css" media="screen">  
+</head>
+<body id="page5">
+	<!--==============================header=================================-->
+	<header>
+		<div class="border-bot">
+			<div class="main">
+				<h1><a href="../index.html">CinéCafé</a></h1>
+				<nav>
+					<ul class="menu">
+						<li><a class="active" href="../index.html">Accueil</a></li>
+						<li><a href="../index-1.html">Films</a></li>
+						<li><a href="../index-2.html">Information</a></li>
+						<li><a href="../index-3.html">Reservation</a></li>
+						<li><a href="../index-4.html">Contacts</a></li>
+						<li><a href="../index-5.html">Authentification</a></li>
+					</ul>
+				</nav>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</header>
+
+	<!--==============================content================================-->
+	<section id="content">
+		<div class="main">
+			<div class="container_12">
+				<div class="wrapper">
+					<article class="grid_8">
+						<h3>Saisiez d'information pour reserver </h3>
+						<form method="post" action="InsRe.php"  >					
+							<fieldset>
+								  <label>Nom : <input name="nom" /></label><br /><br />
+								  <label>Prénom : <input name="prenom" /></label><br />	<br />						  
+								  <label>Téléphone : <input name="phone" size="50px"/></label><br /><br />							  
+      
+
+<label>Salle :
+<select name="salle">
+            <option value="1">Salle  1</option>
+            <option value="2">Salle  2</option>
+            <option value="3">Salle  3</option>
+            <option value="4">Salle  4</option>
+            <option value="5">Salle  5</option>
+     </select > 
+</label><br /><br />
+
+<label>Jour (YYYY-MM-DD) : <input name="jour" /></label><br /><br />
+<label>Horaire (YYYY-MM-DD HH:mm) : <input name="horaire"  size="40px"/></label><br /><br />
+<label>NbPlaceReservees: <input name="place"/></label><br /><br />
+      <input type="submit" value="VALIDER" name = "valider" />
+								 </div>							
+							</fieldset>						
+						</form>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--==============================footer=================================-->
+	<footer>
+		<div class="main">
+			<div class="container_12">
+				<div class="wrapper">
+					<div class="grid_3">
+						<div class="spacer-1">
+							<a href="../index.html"><img src="../images/footer-logo.png" alt=""></a>
+						</div>
+					</div>
+					<div class="grid_5">
+						<div class="indent-top2">
+							Phone: +33 6 05 95 55 45 Email: <a href="www.univ-lemans.fr">info@univ-lemans.fr</a>
+						</div>
+					</div>
+					<div class="grid_4">
+						<ul class="list-services">
+							<li><a class="item-1" href="facebook.com"></a></li>
+							<li><a class="item-2" href="twitter.com"></a></li>
+							<li><a class="item-3" href="picasa.google.com"></a></li>
+							<li><a class="item-4" href="youtube.com"></a></li>
+						</ul>
+						<span class="footer-text">&copy; 2012 <a class="link color-2" href="#">Privacy Policy</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

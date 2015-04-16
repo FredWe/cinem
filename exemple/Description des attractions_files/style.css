@@ -1,0 +1,230 @@
+/* Document CSS */
+
+body{
+	background:url(images/fond.jpg);
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+	background-size: 100%; /*CSS3 */ 
+	font:normal 14px/19px Arial, Helvetica, sans-serif;
+	margin:0; padding:0;}
+div, h1, h2, h3, h4, h5, h6, form, label, input, span, ul, li, p, a{
+	margin:0; padding:0;}
+ul{
+	list-style:none;}
+.spacer{
+	font-size:0; line-height:0; clear:both;}
+
+
+/* ----------------- top navigation --------------------- */	
+#topNav{
+	width:900px; position:relative;
+	padding:100px 0 0 0px;}
+#topNav img{
+	border:none; float:left; margin:0 0 0 0;}
+#topNav ul{	
+	width:988px; height:75px; padding:0px 0px 0px 8px; margin:100px 0 0 200px;}
+#topNav ul li{
+	background-color:#287DED; color:#FFFFFF; float:left;
+	font:bold 11px/23px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#topNav ul li a{
+	background-color:#287DED; color:#FFFFFF;
+	font:bold 13px/25px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:uppercase; text-align:center; text-decoration:none;
+	width:115px; height:53px; display:block;}
+#topNav ul li a.hover{
+	background:url(images/topnav_back.gif ) no-repeat 0 0 #287DED; color:#FFFFFF;
+	font:bold 13px/25px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:uppercase; text-align:center; text-decoration:none;
+	width:115px; height:53px; display:block;}
+#topNav ul li a:hover{
+	background:url(images/topnav_back.gif) no-repeat 0 0 #287DED; color:#FFFFFF;
+	font:bold 13px/25px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:uppercase; text-align:center; text-decoration:none;
+	width:115px; height:53px; display:block;}
+#topNav ul.sousmenu{
+	list-style-type: none;
+	background:url(images/topnav_back.gif ) no-repeat 0 0 #287DED; color:#FFFFFF;
+	text-transform:uppercase; text-align:center; text-decoration:none;
+	width:115px; height:53px; display:block;}
+#topNav ul li.sousmenu{
+	float: none;
+	background:url(images/topnav_back.gif ) no-repeat 0 0 #287DED; color:#FFFFFF;
+	text-transform:uppercase; text-align:center; text-decoration:none;
+	width:115px; height:53px; display:block;}
+}
+#topNav ul li a.sousmenu{
+	float: none;
+	background:url(images/topnav_back.gif ) no-repeat 0 0 #287DED; color:#FFFFFF;
+	text-transform:uppercase; text-align:center; text-decoration:none;
+	width:115px; height:53px; display:block;}
+}
+
+/* ----------------- top navigation end --------------------- */
+
+/* ----------------- body start --------------------------- */
+#body{
+	width:1100px; padding:30px 0 0 10px; }
+#body form.login{
+	background-color:#FFFFFF; color:#000000; border:#ECE8DB 1px solid;
+	width:248px; padding:7px 17px 27px 17px; float:left;}
+#body form.login h2{
+	background:url(images/membre.jpg) no-repeat 0 0 #FFFFFF; color:#786E4E;
+	width:197px; padding:0 0 10px 50px; float:left;
+	font:normal 24px/42px Georgia, "Times New Roman", Times, serif;}
+#body form.login h2 span{
+	background-color:#FFFFFF; color:#0B0B0B;
+	font:normal 24px/42px Georgia, "Times New Roman", Times, serif;}
+#body form.login label{
+	background-color:#FFFFFF; color:#0B0B0B; margin:0 0 8px 0; float:left;
+	font:bold 10px/28px Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#body form.login input{
+	background-color:#FFFFFF; color:#0B0B0B; border:#C3BCA4 1px solid;
+	width:158px; height:22px; padding:2px; margin:0 0 8px 0; float:right;
+	font:normal 14px/20px Arial, Helvetica, sans-serif;}
+#body form.login p{
+	background-color:#FFFFFF; color:#CC0000; float:left; margin:6px 0 0 0;
+	font:normal 13px/15px Arial, Helvetica, sans-serif;}
+#body form.login input.check{
+	background-color:#287DED; color:#0B0B0B; border:#C3BCA4 1px solid;
+	width:15px; height:15px; float:left; margin:6px 0 0 9px;}
+#body form.login input.submit{
+	background-color:#287DED ; color:#0B0B0B; border:none;
+	width:53px; height:13px; float:right; margin:7px 0 0 0; padding:0 23px 0 0; cursor:pointer;
+	font:normal 10px/13px Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#body form.login textarea{
+	background-color:#A3FFF8; color:#0B0B0B; border:#C3BCA4 1px solid;
+	width:248px; height:66px; padding:2px; margin:0 0 13px 15px; float:right;
+	font:normal 14px/20px Arial, Helvetica, sans-serif;}
+
+/* ----------------- shadow start --------------------------- */
+#topShadow{
+	background:url(images/top_shadow.gif) no-repeat 0 0 #FDF9EE; color:#4E4628; 
+	width:778px; height:34px; float:right;}
+#bottomShadow{
+	background:url(images/bottom_shadow.gif) no-repeat 0 0 #FDF9EE; color:#4E4628;
+	width:778px; height:24px; float:right;}
+/* ----------------- shadow end --------------------------- */	
+
+/* -------------------------------- Panneau de contenu central ----------------------------------*/
+#bodyPannel{
+	background:url(images/midle_bg.gif) repeat-y 0 0 #CCFFFF; color:#4E4628;
+	width:778px; float:right;}
+
+
+/*----------------------- texte et tableaux hors panneaux ---------------------- */	
+#midle{
+	padding:8px 25px 0 25px;}
+#midle h1{
+	background-color:#FFFFFF; color:#0B0B0B;
+	font:normal 20px/42px Georgia, "Times New Roman", Times, serif;}
+#midle h1 span{
+	background-color:#FFFFFF; color:#287DED;
+	font:normal 28px/46px Georgia, "Times New Roman", Times, serif;}
+#midle h2{
+	background-color:#FFFFFF; color:#0B0B0B;
+	font:normal 28px/46px Georgia, "Times New Roman", Times, serif;}
+#midle h2 span{
+	background-color:#FFFFFF; color:#287DED;
+	font:normal 28px/46px Georgia, "Times New Roman", Times, serif;}
+#midle p{
+	font:normal 14px/19px Arial, Helvetica, sans-serif; 
+	background-color:#FFFFFF; color:#0B0B0B; text-align: justify; }
+#midle p.blocd{
+	float:right; border:solid 1px; padding:3px; width:400px; background-color:#FFFFFF;}
+#midle img{
+	float:left; border:solid 1px; margin:3px;}
+#midle p.blocg{
+	float:left; border:solid 1px; padding:3px; width:400px; background-color:#FFFFFF;}
+#midle img.droit{
+	float:right; border:solid 1px;}
+#midle a.more{
+	background:url(images/more_bg.gif) no-repeat 66px 0 #FFFFFF; color:#0B0B0B; float:right;
+	font:bold 10px/13px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase;
+	padding:0 20px 0 0; margin:5px 35px 0 0;}
+#midle a.more:hover{
+	background:url(images/more_bg_h.gif) no-repeat 66px 0 #FFFFFF; color:#0B0B0B; float:right;
+	font:bold 10px/13px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase;
+	padding:0 20px 0 0; margin:5px 35px 0 0;}
+#midle table{
+	font:normal 14px/19px Arial, Helvetica, sans-serif; 
+	background-color:#FFF432; color:#000000;
+	/*border-collapse: collapse; Non-compatible avec border radius*/
+	border: medium solid #1744C1; border-radius: 10px;}
+#midle td, th{
+	text-align: center; 
+	border: medium solid #1744C1; border-radius: 10px; background-color:#FFFFFF;}
+	/*Border radius est du CSS3 */
+	
+/*------------------------ Panneau d'inscription ----------------------*/
+#inscription{
+	margin:0 0 0 25px;}
+#inscription span.nltop{
+	background:url(images/inscription_top.gif) no-repeat 0 0 #FCFAF3; color:#000000;
+	width:298px; line-height:0; font-size:0; height:15px; display:block;}
+#inscription span.nlbottom{
+	background:url(images/inscription_bottom.gif) no-repeat 0 0 #FCFAF3; color:#000000;
+	width:298px; line-height:0; font-size:0; height:14px; display:block;}
+#inscription form.inscription{
+	background:url(images/inscription_midle.gif) repeat-y 0 0 #FCFAF3; color:#000000;
+	width:285px; padding:0 8px; float:left;}
+#inscription form.inscription h2.text2{
+	background:url(images/inscription.png) no-repeat 0 0; color:#786E4E;
+	padding:0 0 10px 55px; float:left; width:228px; height:45px;
+	font:normal 30px/36px Georgia, "Times New Roman", Times, serif;}
+#inscription form.inscription h2.text2 span{
+	background-color:#FFFFFF; color:#0B0B0B;
+	font:normal 30px/36px Georgia, "Times New Roman", Times, serif;}
+#inscription form.inscription label{
+	background-color:#FFFFFF; color:#0B0B0B; margin:0 0 8px 0; float:left;
+	font:bold 10px/28px Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#inscription form.inscription input{
+	background-color:#EFEBDE; color:#0B0B0B; border:#C3BCA4 1px solid;
+	width:158px; height:22px; padding:2px; margin:0 28px 8px 0px; float:right;
+	font:normal 14px/20px Arial, Helvetica, sans-serif;}
+#inscription form.inscription textarea{
+	background-color:#EFEBDE; color:#0B0B0B; border:#C3BCA4 1px solid;
+	width:168px; height:66px; padding:2px; margin:0 0 13px 15px; float:left;
+	font:normal 14px/20px Arial, Helvetica, sans-serif;}
+
+/* -------------------- Panneaux de recherche et de réservation ----------------------- */
+#billet{
+	width:345px; float:right;}
+#billet span.ctop{
+	background:url(images/contact_top.gif) no-repeat 0 0 #FFFFFF; 
+	line-height:0; font-size:0; height:14px; display:block;}
+#billet span.cbottom{
+	background:url(images/contact_bottom.gif) no-repeat 0 0 #FFFFFF; color:#000000;
+	line-height:0; font-size:0; height:25px; display:block;}
+#billet form.billet{
+	background:url(images/contact_midle.gif) repeat-y 0 0 #FCFAF3; color:#000000;
+	width:272px; padding:0 20px; float:left;}
+#billet form.billet h2.text3{
+	background:url(images/recherche.jpg) no-repeat 0 0 #FFFFFF; color:#0B0B0B;
+	padding:0 0 10px 55px; float:left; width:228px; height:37px;
+	font:normal 24px/30px Georgia, "Times New Roman", Times, serif;}
+#billet form.billet h2.text3 span{
+	background-color:#FFFFFF; color:#287DED;
+	font:normal 24px/30px Georgia, "Times New Roman", Times, serif;}
+#billet form.billet h2.text4{
+	background:url(images/donald.jpg) no-repeat 0 0 #FFFFFF; color:#0B0B0B;
+	padding:0 0 10px 55px; float:left; width:228px; height:50px;
+	font:normal 24px/30px Georgia, "Times New Roman", Times, serif;}
+#billet form.billet h2.text4 span{
+	background-color:#FFFFFF; color:#287DED;
+	font:normal 24px/30px Georgia, "Times New Roman", Times, serif;}
+#billet form.billet label{
+	background-color:#FFFFFF; color:#0B0B0B; margin:0 0 8px 0; float:left;
+	font:bold 10px/28px Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#billet form.billet input{
+	background-color:#2B87FF; color:#0B0B0B; border:#FFFFFF 1px solid;
+	width:168px; height:22px; padding:2px; margin:0 0 8px 15px; float:right;
+	font:normal 14px/20px Arial, Helvetica, sans-serif;}
+#billet form.billet textarea{
+	background-color:#EFEBDE; color:#0B0B0B; border:#FFFFFF 1px solid;
+	width:268px; height:66px; padding:2px; margin:0 0 13px 15px; float:right;
+	font:normal 14px/20px Arial, Helvetica, sans-serif;}
+/* ----------------- body end --------------------------- */
+
+
+
+
